@@ -1,0 +1,26 @@
+b.	Find the data distributions using Boxplot
+
+
+Install.packages(“ggplot2”) 
+Library(ggplot2)
+Input <- mtcars[,c('mpg','cyl')] 
+input
+
+Boxplot(mpg ~ cyl, data = mtcars, xlab = "number of cylinders", ylab = "miles per gallon", main = "mileage data")
+
+Dev.off()
+
+
+
+Output :-
+
+mpg cyl
+Mazda rx4	21.0  6
+Mazda rx4 wag	21.0 6
+Datsun 710	22.8 4
+Hornet 4 drive	21.4  6
+Hornet sportabout 18.7 8
+Valiant	18.1 6
+
+
+
