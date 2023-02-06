@@ -1,0 +1,18 @@
+a.	Using without R objects on console
+
+> 2587+2149
+Output:- [1] 4736
+> 287954-135479
+Output:- [1] 152475
+> 257*52 
+Output:- [1] 13364
+> 257/21
+Output:- [1] 12.2381
+
+
+Using with R objects on console:
+
+>A=1000
+>B=2000
+>c=A+B
+>c Output:- [1] 3000
